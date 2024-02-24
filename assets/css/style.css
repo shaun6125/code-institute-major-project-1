@@ -6,6 +6,14 @@
     background-color: #0D1828;
 }
 
+.bg-color-personal-info {
+    background-color: #f4f4f4;
+}
+
+.bg-color-gallery {
+    background-color: #fff;
+}
+
 .ui-menu-color-home {
     background-color: #20a8df;
 }
@@ -43,6 +51,12 @@ h4 {
     font-family: "Exo", sans-serif;
     font-weight: 300;
     color: #fafafa;
+}
+
+.section-column {
+    display: table-cell;
+    padding: 0 30px 30px;
+    float: none;
 }
 
 
@@ -138,14 +152,134 @@ header {
     background: rgba(0, 0, 0, 0.2);
 }
 
+/*---------------------------------------------------------------------personal info*/ 
+
+.personal-info-item {
+    margin-bottom: 10px;
+    margin-top: 50px;
+    display: block;
+    clear: both;
+}
+
+.personal-info-item .key,
+.personal-info-item .value {
+    padding-right: 8px;
+    display: inline-block;
+}
+
+.personal-info-item .key p,
+.personal-info-item .value p {
+    margin: 0;
+}
+
+.personal-info-item .key {
+    width: 30%;
+    margin-right: 21px;
+    padding-top: 2px;
+    vertical-align: top;
+}
+
+.personal-info-item .key p {
+    font-weight: 700;
+}
+
+.personal-info-item .value {
+    position: relative;
+    width: 60%;
+}
+
+/*---------------------------------------------------------------------gallery*/
+
+#slideshow {
+    margin: 0 auto;
+    padding-top: 0px;
+    height: 380px;
+    width: 100%;
+    background-color: #fff;
+    box-sizing: border-box;
+  }
+  .entire-content {
+    margin: auto;
+    width: 300px;
+    perspective: 950px;
+    position: relative;
+    padding-top: 5px;
+  }
+  .content-carrousel {
+    width: 100%;
+    position: absolute;
+    float: right;
+    animation: rotar 40s infinite linear;
+    transform-style: preserve-3d;
+  }
+  .content-carrousel:hover {
+    animation-play-state: paused;
+    cursor: pointer;
+  }
+  .content-carrousel figure {
+    width: 60%;
+    height: 200px;
+    border: 1px solid #3b444b;
+    overflow: hidden;
+    position: absolute;
+  }
+  .content-carrousel figure:nth-child(1) {
+    transform: rotateY(0deg) translateZ(300px); 
+  } .content-carrousel figure:nth-child(2) {
+    transform: rotateY(40deg) translateZ(300px); 
+  } .content-carrousel figure:nth-child(3) {
+    transform: rotateY(80deg) translateZ(300px); 
+  } .content-carrousel figure:nth-child(4) {
+    transform: rotateY(120deg) translateZ(300px); 
+  } .content-carrousel figure:nth-child(5) {
+    transform: rotateY(160deg) translateZ(300px); 
+  } .content-carrousel figure:nth-child(6) {
+    transform: rotateY(200deg) translateZ(300px); 
+  } .content-carrousel figure:nth-child(7) {
+    transform: rotateY(240deg) translateZ(300px); 
+  } .content-carrousel figure:nth-child(8) {
+    transform: rotateY(280deg) translateZ(300px); 
+  } .content-carrousel figure:nth-child(9) {
+    transform: rotateY(320deg) translateZ(300px); 
+  } .content-carrousel figure:nth-child(10) {
+    transform: rotateY(360deg) translateZ(300px); 
+  } 
+  .shadow {
+      position: absolute;
+      box-shadow: 0px 0px 20px 0px #000;
+      border-radius: 1px;
+  }
+  .content-carrousel img {
+    image-rendering: auto;
+    transition: all 300ms;
+    width: 100%;
+    height: 100%;
+  }
+  .content-carrousel img:hover {
+    transform: scale(1.2);
+    transition: all 300ms;
+  }
+  @keyframes rotar {
+    from {
+      transform: rotateY(0deg);
+    } to {
+      transform: rotateY(360deg);
+    }
+  }
+
+
 /*---------------------------------------------------------------------Footer*/
 
 footer {
     background-color: #0D1828;
     color: #fafafa;
-    min-height: 150px;
+    min-height: 200px;
     padding-top:10px;
     margin: 0;
+}
+
+.container-fluid {
+    margin:0;
 }
 
 .resume-pdf i {
