@@ -7,7 +7,7 @@
 }
 
 .bg-color-personal-info {
-    background-color: #f4f4f4;
+    background-color: #0d182859;
 }
 
 .bg-color-gallery {
@@ -57,6 +57,13 @@ h4 {
     display: table-cell;
     padding: 0 30px 30px;
     float: none;
+}
+
+.section-heading {
+    font-family: "Exo", sans-serif;
+    font-weight: 300;
+    margin-top: 25px;
+    margin-bottom: 40px;
 }
 
 
@@ -190,25 +197,20 @@ header {
 
 /*---------------------------------------------------------------------gallery*/
 
-#slideshow {
-    margin: 0 auto;
-    padding-top: 0px;
-    height: 380px;
-    width: 100%;
-    background-color: #fff;
-    box-sizing: border-box;
-  }
+
   .entire-content {
     margin: auto;
     width: 300px;
-    perspective: 950px;
-    position: relative;
-    padding-top: 5px;
+    perspective: 1000px;
+    position:relative;
+    padding-top: 10px;
+    padding-bottom: 25px;
   }
   .content-carrousel {
     width: 100%;
+    height: 100%;
     position: absolute;
-    float: right;
+    float:none;
     animation: rotar 40s infinite linear;
     transform-style: preserve-3d;
   }
@@ -217,33 +219,26 @@ header {
     cursor: pointer;
   }
   .content-carrousel figure {
-    width: 60%;
-    height: 200px;
+    width: 65%;
+    max-width: 200px;
+    max-height: 200px;
     border: 1px solid #3b444b;
-    overflow: hidden;
-    position: absolute;
+    position: flex;
   }
   .content-carrousel figure:nth-child(1) {
-    transform: rotateY(0deg) translateZ(300px); 
+    transform: rotateY(60deg) translateZ(200px); 
   } .content-carrousel figure:nth-child(2) {
-    transform: rotateY(40deg) translateZ(300px); 
+    transform: rotateY(120deg) translateZ(200px); 
   } .content-carrousel figure:nth-child(3) {
-    transform: rotateY(80deg) translateZ(300px); 
+    transform: rotateY(180deg) translateZ(200px); 
   } .content-carrousel figure:nth-child(4) {
-    transform: rotateY(120deg) translateZ(300px); 
+    transform: rotateY(240deg) translateZ(200px); 
   } .content-carrousel figure:nth-child(5) {
-    transform: rotateY(160deg) translateZ(300px); 
+    transform: rotateY(300deg) translateZ(200px); 
   } .content-carrousel figure:nth-child(6) {
-    transform: rotateY(200deg) translateZ(300px); 
-  } .content-carrousel figure:nth-child(7) {
-    transform: rotateY(240deg) translateZ(300px); 
-  } .content-carrousel figure:nth-child(8) {
-    transform: rotateY(280deg) translateZ(300px); 
-  } .content-carrousel figure:nth-child(9) {
-    transform: rotateY(320deg) translateZ(300px); 
-  } .content-carrousel figure:nth-child(10) {
-    transform: rotateY(360deg) translateZ(300px); 
+    transform: rotateY(360deg) translateZ(200px); 
   } 
+
   .shadow {
       position: absolute;
       box-shadow: 0px 0px 20px 0px #000;
@@ -256,7 +251,7 @@ header {
     height: 100%;
   }
   .content-carrousel img:hover {
-    transform: scale(1.2);
+    transform: scale(1.5);
     transition: all 300ms;
   }
   @keyframes rotar {
@@ -267,6 +262,15 @@ header {
     }
   }
 
+  #gallery {
+    height:300px;
+    max-width: 100%;
+  }
+
+
+
+  
+
 
 /*---------------------------------------------------------------------Footer*/
 
@@ -274,7 +278,7 @@ footer {
     background-color: #0D1828;
     color: #fafafa;
     min-height: 200px;
-    padding-top:10px;
+    padding-top:50px;
     margin: 0;
 }
 
@@ -283,7 +287,7 @@ footer {
 }
 
 .resume-pdf i {
-    font-size: 18px;
+    font-size: 16px;
     color: #fafafa;
     text-align: center;
     padding-left: 5px;
@@ -301,10 +305,11 @@ footer {
 
 .icons {
     display: inline-flex;
+    padding: 12px 0;
 }
 
 .icons a {
-    margin: 15px 25px 40px 10px;
+    margin: 15px 8px 40px 10px;
     text-decoration: none;
     color: #fff;
     display: block;
@@ -438,8 +443,14 @@ footer {
 }
 
 
+/*---------------------------------------------------------------------three reasons*/
 
+.three-reasons-icon {
+    font-size: 35px;
+    color: #0D1828;
+    padding-left: 10px;
+}
 
-
-
+.three-reasons-heading {
+    margin-bottom: 15px;
 
