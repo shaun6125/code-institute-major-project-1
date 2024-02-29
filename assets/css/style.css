@@ -212,7 +212,7 @@ header {
     height: 100%;
     position: absolute;
     float:none;
-    animation: rotar 40s infinite linear;
+    animation: rotar 20s infinite linear;
     transform-style: preserve-3d;
   }
   .content-carrousel:hover {
@@ -220,24 +220,24 @@ header {
     cursor: pointer;
   }
   .content-carrousel figure {
-    width: 65%;
-    max-width: 200px;
-    max-height: 200px;
+    width: 80%;
+    max-width: 300%;
+    max-height: 300px;
     border: 1px solid #3b444b;
     position: flex;
   }
   .content-carrousel figure:nth-child(1) {
-    transform: rotateY(60deg) translateZ(200px); 
+    transform: rotateY(60deg) translateZ(320px); 
   } .content-carrousel figure:nth-child(2) {
-    transform: rotateY(120deg) translateZ(200px); 
+    transform: rotateY(120deg) translateZ(320px); 
   } .content-carrousel figure:nth-child(3) {
-    transform: rotateY(180deg) translateZ(200px); 
+    transform: rotateY(180deg) translateZ(320px); 
   } .content-carrousel figure:nth-child(4) {
-    transform: rotateY(240deg) translateZ(200px); 
+    transform: rotateY(240deg) translateZ(320px); 
   } .content-carrousel figure:nth-child(5) {
-    transform: rotateY(300deg) translateZ(200px); 
+    transform: rotateY(300deg) translateZ(320px); 
   } .content-carrousel figure:nth-child(6) {
-    transform: rotateY(360deg) translateZ(200px); 
+    transform: rotateY(360deg) translateZ(320px); 
   } 
 
   .shadow {
@@ -272,8 +272,8 @@ header {
 /*-----------------------------slider*/
 
 .container{
-    width: 600px;
-    height: 210px;
+    width: 90%;
+    height: 80%;
     position: relative;
     top: 30%;
     left: 45%;
@@ -291,13 +291,13 @@ header {
 
 
 .container .slides{
-    width: 600%;
+    width: 550%;
     height: 100%;
     display: flex;
 }
 
 .slides .slide{
-    width: 100%;
+    width: 20%;
     transition: 0.8s;
 }
 
