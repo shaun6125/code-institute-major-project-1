@@ -92,8 +92,8 @@ header {
 }
 
 .logo {
-    background: url("../images/Penguins.jpg");
-    background-position: center;
+    background: url("../images/profile1.jpg");
+    background-position: 70% 70%;
     background-repeat: no-repeat;
     background-size: cover;
     min-height:360px;
