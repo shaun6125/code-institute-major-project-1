@@ -8,6 +8,9 @@
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" type="text/css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/hover.css/2.1.1/css/hover-min.css" type="text/css">
     <link rel="stylesheet" href="assets/css/style.css">
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.7.1/dist/jquery.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js"></script>
     <title>Shaun</title>
 </head>
 <body>
@@ -117,38 +120,47 @@
                 </div> 
                 <div class="container d-xl-none">
 
-                    <div class="slides">
-                        <input type="radio" name="r" id="radio1" checked>
-                        <input type="radio" name="r" id="radio2">
-                        <input type="radio" name="r" id="radio3">
-                        <input type="radio" name="r" id="radio4">
-                        <input type="radio" name="r" id="radio5">
-                        
-                        <div class="slide s1">
-                            <img src="assets/images/love-running.png" alt="love-running">
-                        </div>
-                        <div class="slide">
-                            <img src="assets/images/whiskey-drop.png" alt="whiskey-drop">
-                        </div>
-                        <div class="slide">
-                            <img src="assets/images/portfolio.png" alt="portfolio">
-                        </div>
-                        <div class="slide">
-                            <img src="assets/images/mdg-index.png" alt="mdg-index">
-                        </div>
-                        <div class="slide">
-                            <img src="assets/images/mdg-about.png" alt="mdg-about">
-                        </div>
-                        
-                        <div class="navigation">
-                            <label for="radio1" class="bar bar1"></label>
-                            <label for="radio1" class="bar bar2"></label>
-                            <label for="radio1" class="bar bar3"></label>
-                            <label for="radio1" class="bar bar4"></label>
-                            <label for="radio1" class="bar bar5"></label>
-                        </div>
+                    <div id="portfolio" class="carousel slide" data-ride="carousel">
+                       
+                        <ul class="carousel-indicators">
+                          <li data-target="#portfolio" data-slide-to="0" class="active"></li>
+                          <li data-target="#portfolio" data-slide-to="1"></li>
+                          <li data-target="#portfolio" data-slide-to="2"></li>
+                          <li data-target="#portfolio" data-slide-to="3"></li>
+                          <li data-target="#portfolio" data-slide-to="4"></li>
+                          <li data-target="#portfolio" data-slide-to="5"></li>
+                        </ul>                      
+                       
+                        <div class="carousel-inner">
+                          <div class="carousel-item active">
+                            <img src="assets/images/love-running.png" alt="Love Running">
+                          </div>
+                          <div class="carousel-item">
+                            <img src="assets/images/whiskey-drop.png" alt="Whiskey Drop">
+                          </div>
+                          <div class="carousel-item">
+                            <img src="assets/images/portfolio.png" alt="Portfolio">
+                          </div>
+                          <div class="carousel-item">
+                            <img src="assets/images/mdg-index.png" alt="Portfolio">
+                          </div>
+                          <div class="carousel-item">
+                            <img src="assets/images/mdg-about.png" alt="Portfolio">
+                          </div>
+                          <div class="carousel-item">
+                            <img src="assets/images/mdg-contact.png" alt="Portfolio">
+                          </div>
+                        </div>                      
+                       
+                        <a class="carousel-control-prev" href="#portfolio" data-slide="prev">
+                          <span class="carousel-control-prev-icon"></span>
+                        </a>
+                        <a class="carousel-control-next" href="#portfolio" data-slide="next">
+                          <span class="carousel-control-next-icon"></span>
+                        </a>
+                      
                     </div>
-                </div>                        
+                </div>
 
             </div>            
             <div class="bg-color-three-reasons section-column">   
