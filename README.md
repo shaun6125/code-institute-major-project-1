@@ -104,7 +104,7 @@ The slider failed to operate as intended, despite testing and aknowledging its w
 
 Whenever I thought that a page was finished, I deployed it to "**GitHub Pages**".
 
-All my commits and project be found here [milestone-project-one](Github Link here!!!).
+All my commits and project be found here [code-institute-major-project-1](Github Link here!!!).
 
 ## CREDIT
 
