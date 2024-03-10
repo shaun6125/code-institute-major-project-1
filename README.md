@@ -29,7 +29,7 @@ I chose "white", "gray" and "Black" for the main background colors as they are n
 I have imported the fonts from Google: "**Exo & Roboto**" (Roboto used for the title and Exo used for the main text across the whole site).
 I chose "Exo & Roboto" as they are clean, simple and retain an element of professionalism. 
 
-### [index.html](INSERT WEB LINK HERE!!!!)
+### [index.html] (https://shaun6125.github.io/code-institute-major-project-1/index.html)
 
 This is the landing page, where potential employers would find out alittle bit about myself, and as most employers make snap decisions on resumes i wanted to highlight my skills here by encorporating a carousel portfolio to past projects.
 
@@ -44,11 +44,11 @@ Footer Links applied to all pages:
 
 The Image [profile1.jpg] was taken and edited. With better software I would have vectorised the image and mapped the open/closing tags to the shape of my face. 
 
-### [resume.html](INSERT LINK HERE!!!)
+### [resume.html](https://shaun6125.github.io/code-institute-major-project-1/resume.html)
 
 This page is dedicated to giving a breakdown of my work history, an up to date display of progress into the development of Full Stack Developer skills, of which will be updated during the progress of the course.
 
-### [contact.html](INSERT LINK HERE!!!)
+### [contact.html](https://shaun6125.github.io/code-institute-major-project-1/contact.html)
 
 This page is where emloyers can contact me directly and submit any potential project specifications that they may wish for me to work on.
 
@@ -121,8 +121,8 @@ W3 Schools- Used to refresh on elements and styling.
 - [w3schools](https://www.w3schools.com/)
 
 All media has been created by myself for this project.
-The carousel was inspired by a tutorial found on [youtube] (ADD LINK HERE!!!)
-The social medial icons were inspired by a tutorial found on [youtube] (ADD LINK HERE!!!)
+The carousel was inspired by a tutorial found on [youtube] (https://www.youtube.com/watch?v=j1-Ak3WWV_g)
+The social medial icons were inspired by a tutorial found on [youtube] (https://www.youtube.com/watch?v=gYErZW-N-Y0)
 
 ## ACKNOWLEDGEMENTS
 
