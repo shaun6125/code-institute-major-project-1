@@ -1,39 +1,129 @@
-![CI logo](https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png)
+# Personal PORTFOLIO WEBSITE
+ 
+#### User-Centric Front-End Development Project
 
-Welcome,
+In this project, we were asked to create a 3-4 page website for the use of a personal portfolio/resume to reach potential hiring managers.
 
-This is the Code Institute student template for Codeanywhere. If you are using Gitpod then you need [this template](https://github.com/Code-Institute-Org/gitpod-full-template) instead.  We have preinstalled all of the tools you need to get started. It's perfectly ok to use this template as the basis for your project submissions.
+## UX DESIGN
 
-You can safely delete this README.md file, or change it for your own project. Please do read it at least once, though! It contains some important information about Codeanywhere and the extensions we use. Some of this information has been updated since the video content was created. The last update to this file was: **August 30th, 2023**
+For this project I have used the Framework known as "[Bootstrap 4.2.1](http://getbootstrap.com/docs/4.2/)" for the initial layout and added my own CSS for the look of the website and to style some elements.
 
-## Codeanywhere Reminders
+This website is aimed at potential hiring managers and as a means of showcasing my own abilities and development to date.
+It is easily navigated with an easily understandable navigation bar. All infomation is displayed clear and easy to see. All media such as "<img>" and "<iframe>" has been sized accordingly.
 
-To run a frontend (HTML, CSS, Javascript only) application in Codeanywhere, in the terminal, type:
 
-`python3 -m http.server`
+All Mock-Ups and planning I did for this project can be found here [Mock-Ups](INSERT WIREFRAME LINKS!!!)
 
-A button should appear to click: _Open Preview_ or _Open Browser_.
+## FEATURES
 
-To run a frontend (HTML, CSS, Javascript only) application in Codeanywhere with no-cache, you can use this alias for `python3 -m http.server`.
+All pages on this site include the "Header" and "Footer". The Header consists of the navigation bar and logo. The Footer has links to my personal social media pages.
 
-`http_server`
+I chose "white", "gray" and "Black" for the main background colors as they are nuteral and allowed for the colour in he elements to really stand out, drawing the user to them. The colors used in this project were:
 
-To run a backend Python file, type `python3 app.py`, if your Python file is named `app.py` of course.
+- "#......" (**WHITE. Text Color**)
+- "#......" (**GRAY. Section background Color**)
+- "#......" (**nav button Colors**)
+- "#......" (**Hover Effect**)
+- "#......" (**Header and Footer Background color**)
 
-A button should appear to click: _Open Preview_ or _Open Browser_.
+I have imported the fonts from Google: "**Exo & Roboto**" (......used for all headings and ......for the main text across the whole site).
+I chose "Exo & Roboto" as it is clean simple and retains an element of professionalism. 
 
-In Codeanywhere you have superuser security privileges by default. Therefore you do not need to use the `sudo` (superuser do) command in the bash terminal in any of the lessons.
+### [index.html](INSERT WEB LINK HERE!!!!)
 
-To log into the Heroku toolbelt CLI:
+This is the landing page, where potential employers would find out alittle bit about myself, and as most employers make snap decisions on resumes i wanted to highlight my skills here by encorporating a carousel portfolio to past projects.
 
-1. Log in to your Heroku account and go to _Account Settings_ in the menu under your avatar.
-2. Scroll down to the _API Key_ and click _Reveal_
-3. Copy the key
-4. In Codeanywhere, from the terminal, run `heroku_config`
-5. Paste in your API key when asked
+Footer Links applied to all pages:
 
-You can now use the `heroku` CLI program - try running `heroku apps` to confirm it works. This API key is unique and private to you so do not share it. If you accidentally make it public then you can create a new one with _Regenerate API Key_.
+- [Facebook](ADD LINK HERE!!!)
+- [Twitter](ADD LINK HERE!!!)
+- [Youtube](ADD LINK HERE!!!)
+- [Instagram](ADD LINK HERE!!!)
+- [Linkedin](ADD LINK HERE!!!)
+- [Pinterest](ADD LINK HERE!!!)
 
----
+The Image [profile.jpg] was taken and edited. With better software I would have vectorised the image and mapped the open/closing tags to the shape of my face. 
 
-Happy coding!
+### [resume.html](INSERT LINK HERE!!!)
+
+This page is dedicated to giving a breakdown of my work history, an up to date display of progress into the development of Full Stack Developer skills, of which will be updated during the progress of the course.
+
+### [contact.html](INSERT LINK HERE!!!)
+
+This page is where emloyers can contact me directly and submit any potential project specifications that they may wish for me to work on.
+
+On this page, I have added a contact form with details on each row being required for submit.
+
+### [download.html](INSERT LINK HERE!!!)
+
+This page is where employers can download a pdf version of my full CV. I have set this link to open in a new window so that they are not taken away from the core website, ensuring time can be taken to explore further.
+
+## TECHNOLOGIES
+
+Here are links to each techonology I have used:
+
+- [HTML5](https://en.wikipedia.org/wiki/HTML5)
+- [CSS3](https://en.wikipedia.org/wiki/Cascading_Style_Sheets)
+- [Bootstrap 4.2.1](http://getbootstrap.com/docs/4.2/)
+- [Font Awesome 5](https://fontawesome.com)
+
+
+## TESTING
+
+I conducted tests on a wide selction of browsers/devices to ensure User's can successfully use the site and it's features.
+
+Tests conducted:
+
+- Checking the responsiveness
+- Making sure each link worked porperly
+- All images resize appropriately 
+- Carousel/slider change between devices
+- On the contact page I designed and created the form with validation in mind, To this end I checked that the contact form worked using
+code institutes form validation tester "https://formdump.codeinstitute.net/". Once it return the correct information I changed it to the modal.
+
+Once all coding was done I ran the code through the [HTML Validator](https://validator.w3.org/) and the [CSS Validator](https://jigsaw.w3.org/css-validator/). After running the test on each file I fixed any errors given and the files are now validated.
+
+
+These tests included browsers/devices:
+
+- Edge - laptop and desktop
+- Mozilla - laptop and desktop
+- Chrome - laptop and desktop
+- Safari - Iphone
+- Samsung internet browser - android
+- Internet Explorer - laptop and desktop
+
+## Issues/Bugs
+
+I had several issues with the implementation of the carousel and its sizing when scaling across different platforms, due to this I decided that a transition beteen a carousel and a slider would be needed to enhance the user experience.
+This seemed to correct my scalability issues.
+
+The slider failed to operate as intended, despite testing and aknowledging its workability in replit as a single element. (ADD RESOLUTION HERE) 
+
+## DEPLOYMENT
+
+Whenever I thought that a page was finished, I deployed it to "**GitHub Pages**" using version controls found here - [GitHub](https://github.com/evennia/evennia/wiki/Version-Control).
+
+All my commits and project be found here [milestone-project-one](Github Link here!!!).
+
+## CREDIT
+
+I used stack overflow to research a number of issues.
+
+- [Stack Overflow](https://stackoverflow.com/)
+
+Bootstrap 4 Documentation
+
+- [bootstrap 4 documentation](https://getbootstrap.com/docs/4.0)
+
+W3 Schools- Used to refresh on elements and styling.
+
+- [w3schools](https://www.w3schools.com/)
+
+All media has been created by myself for this project.
+The carousel was inspired by a tutorial found on [youtube] (ADD LINK HERE!!!)
+The social medial icons were inspired by a tutorial found on [youtube] (ADD LINK HERE!!!)
+
+## ACKNOWLEDGEMENTS
+
+I received inspiration for this project from the desire to change career. I have also been freelancing for my brothers company and enjoying further development of my skills. I used this passion to create the site. 
