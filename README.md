@@ -20,14 +20,14 @@ All pages on this site include the "Header" and "Footer". The Header consists of
 
 I chose "white", "gray" and "Black" for the main background colors as they are nuteral and allowed for the colour in he elements to really stand out, drawing the user to them. The colors used in this project were:
 
-- "#......" (**WHITE. Text Color**)
-- "#......" (**GRAY. Section background Color**)
-- "#......" (**nav button Colors**)
-- "#......" (**Hover Effect**)
-- "#......" (**Header and Footer Background color**)
+- "#fafafa" (**WHITE. Text Color**)
+- "#0D182859 & #0d18287c " (**GRAY. Section background Color**)
+- "#20a8df, #9B19FF, #FBED20, #0AFF71 " (**nav button Colors**)
+- "rgba(0, 0, 0, 0.2)" (**Hover Effect**)
+- "#0D1828" (**Header and Footer Background color**)
 
-I have imported the fonts from Google: "**Exo & Roboto**" (......used for all headings and ......for the main text across the whole site).
-I chose "Exo & Roboto" as it is clean simple and retains an element of professionalism. 
+I have imported the fonts from Google: "**Exo & Roboto**" (Roboto used for the title and Exo used for the main text across the whole site).
+I chose "Exo & Roboto" as they are clean, simple and retain an element of professionalism. 
 
 ### [index.html](INSERT WEB LINK HERE!!!!)
 
@@ -42,7 +42,7 @@ Footer Links applied to all pages:
 - [Linkedin](ADD LINK HERE!!!)
 - [Pinterest](ADD LINK HERE!!!)
 
-The Image [profile.jpg] was taken and edited. With better software I would have vectorised the image and mapped the open/closing tags to the shape of my face. 
+The Image [profile1.jpg] was taken and edited. With better software I would have vectorised the image and mapped the open/closing tags to the shape of my face. 
 
 ### [resume.html](INSERT LINK HERE!!!)
 
@@ -79,7 +79,7 @@ Tests conducted:
 - All images resize appropriately 
 - Carousel/slider change between devices
 - On the contact page I designed and created the form with validation in mind, To this end I checked that the contact form worked using
-code institutes form validation tester "https://formdump.codeinstitute.net/". Once it return the correct information I changed it to the modal.
+code institutes form validation tester "https://formdump.codeinstitute.net/". Once it returned the correct information I changed it to the modal.
 
 Once all coding was done I ran the code through the [HTML Validator](https://validator.w3.org/) and the [CSS Validator](https://jigsaw.w3.org/css-validator/). After running the test on each file I fixed any errors given and the files are now validated.
 
@@ -98,13 +98,13 @@ These tests included browsers/devices:
 I had several issues with the implementation of the carousel and its sizing when scaling across different platforms, due to this I decided that a transition beteen a carousel and a slider would be needed to enhance the user experience.
 This seemed to correct my scalability issues.
 
-The slider failed to operate as intended, despite testing and aknowledging its workability in replit as a single element. (ADD RESOLUTION HERE) 
+The slider failed to operate as intended, despite testing and aknowledging its workability in replit as a single element. The resolution for this was to refer to bootstrap for a new build and link in some jquery scripts to enable operation. 
 
 ## DEPLOYMENT
 
 Whenever I thought that a page was finished, I deployed it to "**GitHub Pages**".
 
-All my commits and project be found here [code-institute-major-project-1](Github Link here!!!).
+All my commits and project be found here [code-institute-major-project-1](https://github.com/shaun6125/code-institute-major-project-1).
 
 ## CREDIT
 

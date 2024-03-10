@@ -175,7 +175,9 @@ header {
 /*---------------------------------------------------------------------personal info*/ 
 
 .personal-info-heading {
-    color: #fafafa;
+    font-family: "Exo", sans-serif;
+    font-weight: 400;
+    color: #fff;
 }
 
 .personal-info-item {
@@ -195,6 +197,9 @@ header {
 
 .personal-info-item .key p,
 .personal-info-item .value p {
+    font-family: "Exo", sans-serif;
+    font-size:large;
+    font-weight: 400;
     margin: 0;
 }
 
@@ -494,6 +499,8 @@ footer {
 }
 
 .three-reasons-heading {
+    font-family: "Exo", sans-serif;
+    font-weight: 300;
     margin-bottom: 15px;
 }
 
@@ -505,6 +512,8 @@ footer {
 
 
 .history-heading {
+    font-family: "Exo", sans-serif;
+    font-weight: 300;
     color: #fafafa;
     margin-bottom: 50px;
 }
