@@ -102,7 +102,7 @@ The slider failed to operate as intended, despite testing and aknowledging its w
 
 ## DEPLOYMENT
 
-Whenever I thought that a page was finished, I deployed it to "**GitHub Pages**" using version controls found here - [GitHub](https://github.com/evennia/evennia/wiki/Version-Control).
+Whenever I thought that a page was finished, I deployed it to "**GitHub Pages**".
 
 All my commits and project be found here [milestone-project-one](Github Link here!!!).
 
