@@ -1,4 +1,4 @@
-# Personal PORTFOLIO WEBSITE
+# PERSONAL PORTFOLIO WEBSITE
  
 #### User-Centric Front-End Development Project
 
@@ -17,7 +17,7 @@ All Mock-Ups and planning I did for this project can be found here
 [Index-desktop](https://github.com/shaun6125/code-institute-major-project-1/blob/main/assets/images/index%20-%20desktop.png)
 [Index-tablet-mobile](https://github.com/shaun6125/code-institute-major-project-1/blob/main/assets/images/index%20-%20mobile%20and%20tablet.png)
 [Resume-desktop](https://github.com/shaun6125/code-institute-major-project-1/blob/main/assets/images/Resume%20-%20desktop.png)
-[Resume-tablet-mobile]()
+[Resume-tablet-mobile](https://github.com/shaun6125/code-institute-major-project-1/blob/main/assets/images/Resume%20-%20tablet%20and%20mobile.png)
 [Contact-desktop](https://github.com/shaun6125/code-institute-major-project-1/blob/main/assets/images/Contact%20-%20desktop.png)
 [Contact-tablet-mobile](https://github.com/shaun6125/code-institute-major-project-1/blob/main/assets/images/Contact%20-%20tablet%20and%20mobile.png)
 
@@ -38,7 +38,7 @@ I chose "Exo & Roboto" as they are clean, simple and retain an element of profes
 
 ### [index.html] (https://shaun6125.github.io/code-institute-major-project-1/index.html)
 
-This is the landing page, where potential employers would find out alittle bit about myself, and as most employers make snap decisions on resumes i wanted to highlight my skills here by encorporating a carousel portfolio to past projects.
+This is the landing page, where potential employers would find out alittle bit about myself, and as most employers make snap decisions on resumes I wanted to highlight my skills here by encorporating a carousel portfolio to past projects.
 
 Footer Links applied to all pages:
 
@@ -86,7 +86,7 @@ Tests conducted:
 - All images resize appropriately 
 - Carousel/slider change between devices
 - On the contact page I designed and created the form with validation in mind, To this end I checked that the contact form worked using
-code institutes form validation tester "https://formdump.codeinstitute.net/". Once it returned the correct information I changed it to the modal.
+code institutes form validation tester "https://formdump.codeinstitute.net/".
 
 Once all coding was done I ran the code through the [HTML Validator](https://validator.w3.org/) and the [CSS Validator](https://jigsaw.w3.org/css-validator/). After running the test on each file I fixed any errors given and the files are now validated.
 
