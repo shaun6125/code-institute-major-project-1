@@ -36,7 +36,7 @@ I chose "white", "gray" and "Black" for the main background colors as they are n
 I have imported the fonts from Google: "**Exo & Roboto**" (Roboto used for the title and Exo used for the main text across the whole site).
 I chose "Exo & Roboto" as they are clean, simple and retain an element of professionalism. 
 
-### [index.html] (https://shaun6125.github.io/code-institute-major-project-1/index.html)
+### [index.html](https://shaun6125.github.io/code-institute-major-project-1/index.html)
 
 This is the landing page, where potential employers would find out alittle bit about myself, and as most employers make snap decisions on resumes I wanted to highlight my skills here by encorporating a carousel portfolio to past projects.
 
