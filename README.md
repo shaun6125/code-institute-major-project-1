@@ -12,7 +12,14 @@ This website is aimed at potential hiring managers and as a means of showcasing 
 It is easily navigated with an easily understandable navigation bar. All infomation is displayed clear and easy to see. All media such as "<img>" and "<iframe>" has been sized accordingly.
 
 
-All Mock-Ups and planning I did for this project can be found here [Mock-Ups](INSERT WIREFRAME LINKS!!!)
+All Mock-Ups and planning I did for this project can be found here 
+
+[Index-desktop](https://github.com/shaun6125/code-institute-major-project-1/blob/main/assets/images/index%20-%20desktop.png)
+[Index-tablet-mobile](https://github.com/shaun6125/code-institute-major-project-1/blob/main/assets/images/index%20-%20mobile%20and%20tablet.png)
+[Resume-desktop](https://github.com/shaun6125/code-institute-major-project-1/blob/main/assets/images/Resume%20-%20desktop.png)
+[Resume-tablet-mobile]()
+[Contact-desktop](https://github.com/shaun6125/code-institute-major-project-1/blob/main/assets/images/Contact%20-%20desktop.png)
+[Contact-tablet-mobile](https://github.com/shaun6125/code-institute-major-project-1/blob/main/assets/images/Contact%20-%20tablet%20and%20mobile.png)
 
 ## FEATURES
 
