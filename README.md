@@ -61,7 +61,7 @@ This page is where emloyers can contact me directly and submit any potential pro
 
 On this page, I have added a contact form with details on each row being required for submit.
 
-### DOWNLOAD
+### [DOWNLOAD](https://github.com/shaun6125/code-institute-major-project-1/blob/main/assets/resume.pdf)
 
 This link is where employers can download a pdf version of my full CV. I have set this link to open in a new window so that they are not taken away from the core website, ensuring time can be taken to explore further.
 
