@@ -42,12 +42,12 @@ This is the landing page, where potential employers would find out alittle bit a
 
 Footer Links applied to all pages:
 
-- [Facebook](ADD LINK HERE!!!)
-- [Twitter](ADD LINK HERE!!!)
-- [Youtube](ADD LINK HERE!!!)
-- [Instagram](ADD LINK HERE!!!)
-- [Linkedin](ADD LINK HERE!!!)
-- [Pinterest](ADD LINK HERE!!!)
+- [Facebook](https://www.facebook.com/shaun.craven2)
+- [Twitter](https://twitter.com/shauncrave46712)
+- [Youtube](https://www.youtube.com/channel/UCWVZGcEMHbuQbnKm4JrOA9A)
+- [Instagram](https://www.instagram.com/shaun6125/)
+- [Linkedin](https://www.linkedin.com/in/shaun-craven-832536101/)
+- [Pinterest](https://www.pinterest.co.uk/craven6622/)
 
 The Image [profile1.jpg] was taken and edited. With better software I would have vectorised the image and mapped the open/closing tags to the shape of my face. 
 
@@ -61,9 +61,9 @@ This page is where emloyers can contact me directly and submit any potential pro
 
 On this page, I have added a contact form with details on each row being required for submit.
 
-### [download.html](INSERT LINK HERE!!!)
+### DOWNLOAD
 
-This page is where employers can download a pdf version of my full CV. I have set this link to open in a new window so that they are not taken away from the core website, ensuring time can be taken to explore further.
+This link is where employers can download a pdf version of my full CV. I have set this link to open in a new window so that they are not taken away from the core website, ensuring time can be taken to explore further.
 
 ## TECHNOLOGIES
 
