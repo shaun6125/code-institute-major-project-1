@@ -128,8 +128,8 @@ W3 Schools- Used to refresh on elements and styling.
 - [w3schools](https://www.w3schools.com/)
 
 All media has been created by myself for this project.
-The carousel was inspired by a tutorial found on [youtube] (https://www.youtube.com/watch?v=j1-Ak3WWV_g)
-The social medial icons were inspired by a tutorial found on [youtube] (https://www.youtube.com/watch?v=gYErZW-N-Y0)
+The carousel was inspired by a tutorial found on [youtube](https://www.youtube.com/watch?v=j1-Ak3WWV_g)
+The social medial icons were inspired by a tutorial found on [youtube](https://www.youtube.com/watch?v=gYErZW-N-Y0)
 
 ## ACKNOWLEDGEMENTS
 
